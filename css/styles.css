@@ -1,7 +1,9 @@
 body {
     width: 960px;
-    text-align: center;
+    /* text-align: center; */
     margin: 2vw;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 img.logo {
@@ -9,7 +11,6 @@ img.logo {
 }
 
 p.cursive {
-    
     font-family: "Yellowtail", cursive;
     font-weight: 400;
     float: left;
@@ -30,7 +31,7 @@ h1 {
     font-weight: 600;
     margin-top: 10vw;
     float: left;
-    text-align:left;
+    text-align: left;
     font-size: 36px;
 }
 
@@ -43,30 +44,45 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    margin-bottom: 3vw;
 }
 
 .instructions {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
+    padding-bottom: 2vw;
+    ;
 }
 
 .ingredients {
-    margin-top: 2vw;
-    position: relative;
     font-family: "Patrick Hand", cursive;
     font-weight: 400;
 }
 
-ul li.left-ingred {
+.notepad {
     position: absolute;
-    margin-bottom: 4vw;
-    margin-right: 6vw;
+    float: left;
+    z-index: -1;
+}
+
+ul li.left-ingred {
+    position: relative;
+    color: rgb(75, 65, 48);
+    margin-right: 20vw;
+    /* display: block; */
+    font-size: 26px;
+    z-index: 1;
+    margin-top: 1vw;
 }
 
 ul li.right-ingred {
-    position: absolute;
-    margin-bottom: 4vw;
-    margin-left: 6vw;
+    position: relative;
+    color: rgb(75, 65, 48);
+    display: block;
+    margin-left: 20vw;
+    font-size: 26px;
+    z-index: 2;
+    margin-bottom: 1vw;
 }
 
 .bottom {
@@ -77,11 +93,21 @@ ul li.right-ingred {
     float: left;
 }
 
+img.bottom-left {
+    padding-right: 5%;
+}
+
 .bottom-right {
     float: right
 }
 
 button {
-    background-color: rgb(104, 54, 27);
-    color: azure
+    background-color: rgb(126, 75, 48);
+    color: azure;
+    padding: 1vw;
+    font-size: 20px;
+}
+
+footer {
+    padding-top: 8%;
 }
