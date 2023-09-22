@@ -1,25 +1,63 @@
-
-
-
-.cursive {
-    font-family: "Yellowtail variant0", Tofu;
-    font-weight: 400;
+body {
+    width: 960px;
+    text-align: center;
+    margin: 2vw;
 }
 
-.catchphrase {
+img.logo {
+    float: left;
+}
+
+p.cursive {
+    font-family: "Yellowtail variant0";
+    font-weight: 400;
+    float: left;
+}
+
+p.catchphrase {
     font-family: "Roboto_Condensed variant0", Tofu;
     font-weight: 400;
-    /* (300? 350?) */
+    float: left;
 }
 
 .icons {
     float: right;
+}
 
 h1 {
     font-family: 'Oswald', sans-serif;
-font-weight: 600;
+    font-weight: 600;
+    margin-top: 10vw;
+    float: left;
+    text-align: center;
 }
 
-main {
-    text-align: center;
+.print {
+    float: right;
+}
+
+.choco-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.instructions {
+    font-family: "Libre_Baskerville variant0", Tofu;
+    font-weight: 400;
+}
+
+.ingredients {
+    position: relative;
+    font-family: "Patrick_Hand variant0", Tofu;
+    font-weight: 400;
+}
+
+ul li.left-ingred {
+    position: absolute;
+}
+
+ul li.right-ingred {
+    position: absolute;
 }
