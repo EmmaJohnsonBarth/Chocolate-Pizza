@@ -1,0 +1,25 @@
+
+
+
+.cursive {
+    font-family: "Yellowtail variant0", Tofu;
+    font-weight: 400;
+}
+
+.catchphrase {
+    font-family: "Roboto_Condensed variant0", Tofu;
+    font-weight: 400;
+    /* (300? 350?) */
+}
+
+.icons {
+    float: right;
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+font-weight: 600;
+}
+
+main {
+    text-align: center;
+}
