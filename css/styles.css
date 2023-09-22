@@ -9,13 +9,14 @@ img.logo {
 }
 
 p.cursive {
-    font-family: "Yellowtail variant0";
+    
+    font-family: "Yellowtail", cursive;
     font-weight: 400;
     float: left;
 }
 
 p.catchphrase {
-    font-family: "Roboto_Condensed variant0", Tofu;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     float: left;
 }
@@ -29,7 +30,8 @@ h1 {
     font-weight: 600;
     margin-top: 10vw;
     float: left;
-    text-align: center;
+    text-align:left;
+    font-size: 36px;
 }
 
 .print {
@@ -44,20 +46,42 @@ h1 {
 }
 
 .instructions {
-    font-family: "Libre_Baskerville variant0", Tofu;
+    font-family: "Libre Baskerville", serif;
     font-weight: 400;
 }
 
 .ingredients {
+    margin-top: 2vw;
     position: relative;
-    font-family: "Patrick_Hand variant0", Tofu;
+    font-family: "Patrick Hand", cursive;
     font-weight: 400;
 }
 
 ul li.left-ingred {
     position: absolute;
+    margin-bottom: 4vw;
+    margin-right: 6vw;
 }
 
 ul li.right-ingred {
     position: absolute;
+    margin-bottom: 4vw;
+    margin-left: 6vw;
+}
+
+.bottom {
+    margin-top: 5vw;
+}
+
+.bottom-left {
+    float: left;
+}
+
+.bottom-right {
+    float: right
+}
+
+button {
+    background-color: rgb(104, 54, 27);
+    color: azure
 }
